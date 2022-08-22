@@ -1,0 +1,19 @@
+@import '../../style.scss';
+
+.table__text{
+    margin-left: 5%;
+
+}
+.table__add{
+  font-size: $fontSize;
+  background-color: $colorFonTabl1;
+  color: $colorWhite;
+  border: $borderColor;
+  cursor: pointer;
+}
+.table__add:hover{
+  background-color: wheat;
+}
+.table__words:hover{
+  background-color: rgb(243, 211, 235);
+}

@@ -1,0 +1,27 @@
+
+@import '../../style.scss';
+
+.table{
+    width: 100%;
+    padding: 5%;
+
+}
+.table__name,
+.table__words
+{
+    display: flex;
+    justify-content: space-between;
+    border: $borderColor;
+    padding: 3%;
+    font-size: $fontSize ;
+
+}
+.table__name{
+    background-color: $colorFonTabl1;
+    color:$colorWhite ;
+
+}
+
+.section{
+    display: flex;
+}
