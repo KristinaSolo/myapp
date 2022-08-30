@@ -2,8 +2,10 @@
 @import '../../style.scss';
 
 .table{
-    width: 100%;
+    
     padding: 5%;
+    width: 100%;
+
 
 }
 .table__name,
@@ -22,6 +24,13 @@
 
 }
 
-.section{
+.section__table{
     display: flex;
+    justify-content: space-around;
+}
+
+.section__cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
 }

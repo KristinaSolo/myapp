@@ -5,8 +5,7 @@ import Section from './section/Section'
 
  function Main() {
   return (
-    <div>
-      
+    <div className='main'>
       <Section/>
     </div>
   )

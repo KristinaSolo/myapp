@@ -1,0 +1,35 @@
+@import '../../style.scss';
+
+.cards{
+    border: 1px solid  rgb(248, 237, 249);
+display: flex;
+width: 20%;
+flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    height: 40vh;
+    justify-content: space-evenly;
+    background-color: rgb(248, 237, 249);
+
+
+}
+
+.cards__text,
+.cards__transcript
+{
+    font-size: $fontSize;
+    padding-bottom: 20%;
+}
+
+.cards__btn{
+  padding: 10px;
+  width: 50%;
+  font-size: $fontSize;
+  background-color: $colorFonTabl1;
+  color: $colorWhite;
+  border: $borderColor;
+  cursor: pointer;
+}
+.cards__btn:hover{
+    background-color: wheat;
+  }
